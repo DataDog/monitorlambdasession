@@ -1,0 +1,38 @@
+{
+    "Records": [
+        {
+            "eventVersion": "2.0",
+            "eventSource": "aws:s3",
+            "awsRegion": "us-west-2",
+            "eventTime": "2016-08-10T17:55:22.089Z",
+            "eventName": "ObjectCreated:Put",
+            "userIdentity": {
+                "principalId": "AWS:AIDAJES5GFHN7RPUT2OE2"
+            },
+            "requestParameters": {
+                "sourceIPAddress": "98.116.11.133"
+            },
+            "responseElements": {
+                "x-amz-request-id": "ADDB75A9365D6162",
+                "x-amz-id-2": "Nlb//eKh+/wdBrEfUc8Q9RYNFnAcr0THDFas9j/4DM9oCIvUkGzpQy8y7SOA75vlt24KYMrbfOM="
+            },
+            "s3": {
+                "s3SchemaVersion": "1.0",
+                "configurationId": "59075a5d-e4e6-4a69-bccc-894819cd5cc2",
+                "bucket": {
+                    "name": "evangelism",
+                    "ownerIdentity": {
+                        "principalId": "A51AZ09GG60ZF"
+                    },
+                    "arn": "arn:aws:s3:::evangelism"
+                },
+                "object": {
+                    "key": "lambda-images/alert_4.png",
+                    "size": 84786,
+                    "eTag": "4b76592c75add30feb4226820991310f",
+                    "sequencer": "0057AB6A89F142BA88"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "monitorlambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^2.0.1",
+    "aws-sdk": "^2.4.9",
+    "gm": "^1.22.0",
+    "path": "^0.12.7",
+    "request": "^2.74.0",
+    "utils": "^0.3.1"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.4.9",
+    "node-lambda": "^0.8.6"
+  },
+  "scripts": {
+    "start": "node index.js", 
+    "dry-run": "node-lambda run", 
+    "deploy": "node-lambda deploy --configFile deploy.env", 
+    "setup": "node-lambda setup", 
+    "package": "node-lambda package"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
